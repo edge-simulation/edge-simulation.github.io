@@ -1,6 +1,0 @@
-<div class="video">
-  <video alt="{{ include.alt | default: include.caption }}" frameborder="0" allowfullscreen title="{{ include.title | default: "Video" }}" controls>
-    <source src="{{ include.video }}" type="video/mp4">
-  </video>
-  {% if include.caption %}<figcaption class="caption">{{ include.caption }}</figcaption>{% endif %}
-</div>
