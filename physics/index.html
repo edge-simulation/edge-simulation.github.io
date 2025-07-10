@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>EDGE Physics</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="assets/icons/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="assets/icons/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="assets/icons/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png" />
+		<link rel="manifest" href="assets/icons/favicon/site.webmanifest" />		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/physics.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="/">EDGE</a></h1>
+							<p><b>Engineering Dwarfs at Galaxy Formation's Edge</b></p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="/">Home</a></li>
+								<li class="current"><a href="/physics/">Physics</a>	</li>
+								<li><a href="/collaborators/">Collaborators</a></li>
+								<!-- <li><a href="/press/">Press Releases</a></li> -->
+								<li><a href="/media/">Media</a>
+								<!-- <ul>
+								  <li><a href="/media/Movies/">Movies</a></li>
+								  <li><a href="/media/Pictures/">Pictures</a></li>								
+								</ul></li> -->
+								<li><a href="/publications/">Publications</a></li>
+								<li><a href="/data-access/">Data Access</a></li>
+							</ul>
+						</nav>
+				</section>
+
+			<!-- Main -->
+			<div id="intro" class="wrapper style1">
+				<div class="container">
+					<div class="title">EDGE Physics</div>
+					<!-- Content -->
+						<div id="content">
+							<div class="container">
+								<p class="style3">
+								</br>
+									Since the publication of the original EDGE suite in 2020, computational advancements have made it possible to improve the fidelity of the EDGE simulations. Consequently, the physics prescription of the second generation of EDGE simulations has undergone incremental improvements in various areas.</br></br>Changes between suites are shown below; however, for a comprehensive overview, we encourage the reader to read the relevant introductory paper.<br/>
+								<br/>
+								</p>
+							</div>
+						</div>
+
+									<!-- Font Awesome Icon Library -->
+									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+									<table>
+										<tr>
+											<th style="width:50%"></th>
+											<th>EDGE-1</th>
+											<th>EDGE-2</th>
+										</tr>
+										<tr>
+											<td>Introduction Paper</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1656A/abstract">Agertz et al 2020</a></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250303813R/abstract">Rey et al 2025</a></td>
+										</tr>
+										<tr>
+											<td></br>Code Base</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2002A&A...385..337T/abstract">Teyssier 2002</a></br></br><a href="https://bitbucket.org/rteyssie/ramses/src/master/">RAMSES</a></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.2188R/abstract">Rosdahl et al 2013</a></br></br><a href="https://bitbucket.org/rteyssie/ramses/src/master/">RAMSES-RT</a></td>
+										</tr>
+										<tr>
+											<td></br>Cosmology</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2014A%26A...571A..16P/abstract">Planck Collaboration et al 2014</a></br></br>LCDM</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...641A...6P/abstract">Planck Collaboration et al 2020</a></br></br>LCDM</td>
+										</tr>
+										<tr>
+											<td>Resolution</br>(DM/Gas/Stellar)</td>
+											<td>118M<sub>⊙</sub>/3pc/300M<sub>⊙</sub> </td>
+											<td>944M<sub>⊙</sub>/3pc/300M<sub>⊙</sub> </td>
+										</tr>
+										<tr>
+											<td>Box Size</td>
+											<td>50 Mpc</td>
+											<td>100 Mpc</td>
+										</tr>
+										<tr>
+											<td>Halo Mass Range (M<sub>⊙</sub>)</td>
+											<td>1.2×10<sup>9</sup> - 7.5×10<sup>9</sup></td>
+											<td>1.2×10<sup>9</sup> - 1.1×10<sup>10</sup></td>
+										</tr>
+										<tr>
+											<td>Stellar Mass Range (M<sub>⊙</sub>)</td>
+											<td>4.5×10<sup>4</sup> - 1.1×10<sup>7</sup></td>
+											<td>1.5×10<sup>4</sup> - 4.2×10<sup>7</sup></td>
+										</tr>
+										<tr>
+											<td>UVB Background</td>
+											<td>A Modified version of</br><a href="https://ui.adsabs.harvard.edu/abs/1996ApJ...461...20H/abstract">Haardt & Madau 1996</a></td>
+											<td></br><a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.1614F/abstract">Faucher-Giguère 2020</a></td>
+										</tr>
+										<tr>
+											<td></br>Stellar Feedback</td>
+											<td>CCSNe, SNe-Ia, fast winds from massive stars, and slow winds from AGB stars</td>
+											<td>CCSNe, SNe-Ia, fast winds from massive stars, slow winds from AGB stars, and radiative feedback</td>
+										</tr>
+										<tr>
+											<td></br>Type-Ia Supernova Model</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/1996A%26A...315..105R/abstract">Raiteri et al 1996</a></br>Yields from:</br><a href="https://ui.adsabs.harvard.edu/abs/1986A%26A...158...17T/abstract">Thielemann et al 1986</A></td>
+												<td><a href="https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.3282M/abstract">Maoz et al 2012</a></br>Yields from:</br><a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.429.1156S/abstract">Seitenzahl et al 2013</a></td>
+										</tr>
+										<tr>
+											<td></br>Yields</td>
+											<td></br><a href="https://ui.adsabs.harvard.edu/abs/2007PhR...442..269W/abstract">Woosley & Heger 2007</a></td>
+											<td>NUGrid Yields:</br><a href="https://ui.adsabs.harvard.edu/abs/2016ApJS..225...24P/abstract">Pignatari et al 2016</a></br><a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.480..538R/abstract">Ritter et al 2018</a></td>
+										</tr>
+										<tr>
+											<td>Tracked Elements</td>
+											<td>Fe, O</td>
+											<td>C, N, O, Mg, Al, Si, Fe, Eu</td>
+										</tr>
+										<tr>
+											<td>Initial Mass Function</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C/abstract">Chabrier 2003</a></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2001MNRAS.322..231K/abstract">Kroupa 2001</a></td>
+										</tr>
+										<tr>
+											<td></br>Initial Conditions</td>
+											<td><a href="https://github.com/pynbody/genetIC">GenetIC</a></br></br><a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..252...28S/abstract">Stopyra et al 2021a</a></td>
+											<td><a href="https://github.com/pynbody/genetIC">GenetIC</a></br></br><a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..252...28S/abstract">Stopyra et al 2021a</a></td>
+										</tr>
+										<tr>
+											<td></br>Cooling</td>
+											<td>Equilibrium cooling</br></br><a href="https://ui.adsabs.harvard.edu/abs/2004A%26A...416..875C/abstract">Courty & Alimi 2004</a></td>
+											<td>Non-equilibrium primordial and molecular chemistry</br><a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.2188R/abstract">Rosdahl et al 2013</a></br><a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.3206N/abstract">Nickerson et al 2018</a></td>
+										</tr>
+										<tr>
+											<td>GenetICally Modified</br>Initial Conditions</td>
+											<td>Early/Late</br>Higher Final Mass</br></td>
+											<td>Early/Late</br>Higher Final Mass</br></td>
+										</tr>
+										<tr>
+											<td>Fully Cosmological</td>
+											<td><i class="fa fa-check"></i></td>
+											<td><i class="fa fa-check"></i></td>
+										</tr>
+										<tr>
+											<td>Radiative Transfer</td>
+											<td><i class="fa fa-remove"></i></td>
+											<td>As implemented in</br><a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1656A/abstract">Agertz et al 2020</a></td>
+										</tr>
+										<tr>
+											<td>High Cadence Tracer Particles</td>
+											<td><i class="fa fa-remove"></i></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..96C/abstract">Cadiou et al 2019</a></td>
+										</tr>
+										<tr>
+											<td>Population III Stars</td>
+											<td><i class="fa fa-remove"></i></td>
+											<td><i class="fa fa-remove"></i></td>
+										</tr>
+									</table> 
+
+				</div>
+			</div>
+
+			<!-- Highlights -->
+				<section id="highlights" class="wrapper style3">
+					<div class="title">The Science</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="#">Aliquam diam consequat</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="/publications/Gray2024/" class="image featured"><img src="images/Gray2024/CMD.png" alt="" /></a>
+									<h3><a href="/publications/Gray2024/"> EDGE: A New Model for Nuclear Star Cluster Formation in Dwarf Galaxies </a></h3>
+									<p>In this paper, we investigate the formation of simulated dwarf galaxies that play host Nulear Star Clsters, additionally we study their observational properties, 
+										and compare them to observed Globular Clusters such as Omega-Centuri.</p>
+									<ul class="actions">
+										<li><a href="/publications/Gray2024/" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="#">Mattis tempus lorem</a></h3>
+									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+									<ul class="actions">
+										<li><a href="#" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+						</div>
+						<ul class="actions special">
+    						<li><a href="/publications/" class="button style3 large">Publications</a></li>
+						</ul>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer" class="wrapper">						
+				<div id="copyright">
+					<ul>
+						<li><img src="images/dirac_logo.png" alt=""  width="150"/></li>
+						<li>&copy; EDGE 2025.</li>
+						<li>Design:<a href="http://html5up.net">HTML5 UP</a></li>
+						<li><img src="images/stfc_logo.png" alt="" width="300"/></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
